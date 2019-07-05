@@ -1,3 +1,40 @@
+## Responsabilidad de cada componente
+App: Definir las rutas que utiliza el app.
+
+CardAuth: Definir el card al estilo de bootstrap que es llamado desde la página de Auth Code.
+
+CardLogin: Definir el card al estilo de bootstrap que es llamado desde la página de login.
+
+CardSuccess: Definir el card al estilo de bootstrap que es llamado desde la página Home
+
+## Responsabilidad de cada página
+Home: página principal de login success.
+
+Login: página inicial con el login del app.
+
+LoginAuthCode: página que muestra el formulario de ingreso del auth code.
+
+## Responsabilidad utils
+api: Simulación de la definición del api consultando *.json.
+
+authorized: Json con la respuesta valida del auth code.
+
+no-authorized: Json con la respuesta invalida del auth code.
+
+constants: Definición de datos de login estáticos.
+
+denied: Json con la respuesta invalida del login.
+
+logged: Json con la respuesta valida del login.
+
+## Credentials access
+
+username: linktic90210
+
+password: 123456
+
+authCode: h6fCL6OcgmZSmb4GCRSfAyAXfG4CXuBEb1v2H2OFZSYyi0B53a
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
